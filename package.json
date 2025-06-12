@@ -1,0 +1,44 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000 --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start -p 3000 --hostname 0.0.0.0",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.10",
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@reduxjs/toolkit": "^2.6.1",
+    "@tailwindcss/postcss": "^4.0.12",
+    "axios": "^1.8.2",
+    "js-cookie": "^3.0.5",
+    "lamejs": "^1.2.1",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.479.0",
+    "mic-recorder-to-mp3": "^2.2.2",
+    "nav-time": "^1.0.2",
+    "next": "^15.2.1",
+    "postcss": "^8.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-linkify": "^1.0.0-alpha",
+    "react-mic": "^12.4.6",
+    "react-redux": "^9.2.0",
+    "react-virtualized-auto-sizer": "^1.0.25",
+    "react-virtuoso": "^4.12.5",
+    "react-window": "^1.8.11",
+    "recorder-js": "^1.0.7",
+    "redux-thunk": "^3.1.0",
+    "simple-peer": "^9.11.1",
+    "tailwindcss": "^4.0.12",
+    "websocket": "^1.0.35"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.1"
+  }
+}
